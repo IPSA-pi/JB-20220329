@@ -1,0 +1,81 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: white;
+}
+
+::selection {
+  background-color: white;
+  color: black;
+}
+
+.hiloInput {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+input {
+  margin: auto;
+  padding: 0.5rem;
+}
+
+button {
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: auto;
+}
+
+input, button {
+  display: block;
+  margin-bottom: 1rem;
+  background-color: black;
+  color: white;
+  border-style: none;
+}
+
+.jergaBinaria {
+  width: 320px;
+  margin: auto;
+  margin-bottom: 10vh;
+}
+
+.jergaBinaria .fila {
+  display: flex;
+}
+
+.celda {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 2rem;
+}
+
+.jergaBinaria .cero {
+  color: black;
+  background-color: white;
+}
+
+.jergaBinaria .uno {
+  color: white;
+  background-color: black;
+}
+
+ul {
+  width: 320px;
+  margin: auto;
+}
+
+li {
+  text-align: center;
+  font-size: 5.2rem;
+  line-height: 55px;
+}
+
+/*# sourceMappingURL=main.css.map */
